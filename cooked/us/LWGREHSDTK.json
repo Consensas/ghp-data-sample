@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://GOODHEALTHPASS.COM/vaccination/v1",
+    "https://w3id.org/security/bbs/v1"
+  ],
+  "id": "https://issuer.oidp.uscis.gov/credentials/LWGREHSDTK",
+  "type": [
+    "VerifiableCredential",
+    "VaccinationCredential"
+  ],
+  "issuer": "did:example:489398593",
+  "issuanceDate": "2019-12-03T12:19:52Z",
+  "expirationDate": "2029-12-03T12:19:52Z",
+  "credentialSubject": {
+    "recipient": "LWGREHSDTK",
+    "birthDate": "2009-05-23",
+    "gender": "M",
+    "givenName": "Donald",
+    "middleName": null,
+    "familyName": "Bryant",
+    "dateOfVaccination": "2021-01-27",
+    "administeringCentre": "Drake's Drug Store, Cruzshire",
+    "healthProfessional": "e7e2fe61",
+    "countryOfVaccination": "US",
+    "stateOfVaccination": "IL",
+    "batchNumber": "55146bba",
+    "cycleNumber": "1",
+    "nextVaccinationDate": "2021-03-24",
+    "vaccineEvent": "c519cff8",
+    "linkedVaccineEvent": null,
+    "medicinalProductName": "Moderna COVID-19 Vaccine",
+    "_marketingAuthorizationHolder": "???",
+    "cvxCode": "207"
+  },
+  "proof": {
+    "type": "BbsBlsSignature2020",
+    "created": "2021-04-29T12:35:04Z",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz+oZYt4plzA==",
+    "verificationMethod": "did:example:489398593#test"
+  }
+}

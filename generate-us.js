@@ -27,6 +27,8 @@ const fs = require("iotdb-fs")
 
 const path = require("path")
 
+const isodate = date => date.toISOString().replace(/[.]\d\d\dZ$/, "Z")
+
 const vaccines = [
     {
         "cvx": "207",
@@ -68,7 +70,7 @@ const sign = _.promise((self, done) => {
             sd.record = {
               "@context": [
                 "https://www.w3.org/2018/credentials/v1",
-                "https://GOODHEALTHPASS/vaccination/v1",
+                "https://GOODHEALTHPASS.COM/vaccination/v1",
                 "https://w3id.org/security/bbs/v1"
               ],
               "id": `https://issuer.oidp.uscis.gov/credentials/${ sd.raw.code }`,
@@ -82,7 +84,7 @@ const sign = _.promise((self, done) => {
               "credentialSubject": self.record,
               "proof": {
                 "type": "BbsBlsSignature2020",
-                "created": "2021-04-29T12:22:44Z",
+                "created": sd.now,
                 "proofPurpose": "assertionMethod",
                 "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz+oZYt4plzA==",
                 "verificationMethod": "did:example:489398593#test"
@@ -166,6 +168,13 @@ const _one = _.promise((self, done) => {
         .add("raw:record")
         .then(make_covid_flat)
         .then(sign)
+        .make(sd => {
+            sd.json = sd.record
+            sd.path = path.join(__dirname, "cooked/us/" + sd.raw.code + ".json")
+        })
+        .then(fs.make.directory.parent)
+        .then(fs.write.json.pretty)
+        .log("wrote", "path")
 
         .end(done, self, _one)
 })
@@ -184,15 +193,15 @@ _one.produces = {
  */
 _.promise()
     .then(fs.read.yaml.p(path.join(__dirname, "raw", "us.yaml")))
-    .add("json:raws")
+    .make(sd => {
+        sd.raws = sd.json.slice(0, 10)
+        sd.now = isodate(new Date())
+    })
     .each({
         method: _one,
         inputs: "raws:raw",
         outputs: "records",
         output_selector: sd => sd.record,
-    })
-    .make(sd => {
-        console.log(sd.records[0])
     })
     .catch(error => {
         console.log("#", _.error.message(error))
