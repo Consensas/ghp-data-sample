@@ -1,0 +1,500 @@
+file /Users/david/consensas/ghp-data-sample/cooked/us/2BMQSWUTXD.json
+json 1230 100%
+json-qr 821 66.7%
+json-base32 1968 160%
+json-base32-qr 947 77%
+json-zlib 745 60.6%
+json-zlib-qr 529 43%
+json-zlib-base32 1192 96.9%
+json-zlib-base32-qr 596 48.5%
+cbor 1109 90.2%
+cbor-qr 742 60.3%
+cbor-base32 1776 144.4%
+cbor-base32-qr 821 66.7%
+cbor-zlib 1097 89.2%
+cbor-zlib-qr 742 60.3%
+cbor-zlib-base32 1760 143.1%
+cbor-zlib-base32-qr 821 66.7%
+jsonxt 432 35.1%
+jsonxt-qr 326 26.5%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/4R65Z5LMFZ.json
+json 1235 100%
+json-qr 821 66.5%
+json-base32 1976 160%
+json-base32-qr 947 76.7%
+json-zlib 743 60.2%
+json-zlib-qr 529 42.8%
+json-zlib-base32 1192 96.5%
+json-zlib-base32-qr 596 48.3%
+cbor 1114 90.2%
+cbor-qr 781 63.2%
+cbor-base32 1784 144.5%
+cbor-base32-qr 862 69.8%
+cbor-zlib 1103 89.3%
+cbor-zlib-qr 742 60.1%
+cbor-zlib-base32 1768 143.2%
+cbor-zlib-base32-qr 821 66.5%
+jsonxt 437 35.4%
+jsonxt-qr 326 26.4%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/6SGVIGLWJL.json
+json 1251 100%
+json-qr 862 68.9%
+json-base32 2008 160.5%
+json-base32-qr 947 75.7%
+json-zlib 750 60%
+json-zlib-qr 529 42.3%
+json-zlib-base32 1200 95.9%
+json-zlib-base32-qr 596 47.6%
+cbor 1131 90.4%
+cbor-qr 781 62.4%
+cbor-base32 1816 145.2%
+cbor-base32-qr 862 68.9%
+cbor-zlib 1106 88.4%
+cbor-zlib-qr 742 59.3%
+cbor-zlib-base32 1776 142%
+cbor-zlib-base32-qr 821 65.6%
+jsonxt 433 34.6%
+jsonxt-qr 326 26.1%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/BOLELWKUIS.json
+json 1233 100%
+json-qr 821 66.6%
+json-base32 1976 160.3%
+json-base32-qr 947 76.8%
+json-zlib 752 61%
+json-zlib-qr 562 45.6%
+json-zlib-base32 1208 98%
+json-zlib-base32-qr 596 48.3%
+cbor 1111 90.1%
+cbor-qr 742 60.2%
+cbor-base32 1784 144.7%
+cbor-base32-qr 862 69.9%
+cbor-zlib 1099 89.1%
+cbor-zlib-qr 742 60.2%
+cbor-zlib-base32 1760 142.7%
+cbor-zlib-base32-qr 821 66.6%
+jsonxt 476 38.6%
+jsonxt-qr 352 28.5%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/EXWTWLFIZL.json
+json 1255 100%
+json-qr 862 68.7%
+json-base32 2008 160%
+json-base32-qr 947 75.5%
+json-zlib 759 60.5%
+json-zlib-qr 562 44.8%
+json-zlib-base32 1216 96.9%
+json-zlib-base32-qr 596 47.5%
+cbor 1135 90.4%
+cbor-qr 781 62.2%
+cbor-base32 1816 144.7%
+cbor-base32-qr 862 68.7%
+cbor-zlib 1108 88.3%
+cbor-zlib-qr 742 59.1%
+cbor-zlib-base32 1776 141.5%
+cbor-zlib-base32-qr 821 65.4%
+jsonxt 437 34.8%
+jsonxt-qr 326 26%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/HBJVUSC5MN.json
+json 1255 100%
+json-qr 862 68.7%
+json-base32 2008 160%
+json-base32-qr 947 75.5%
+json-zlib 760 60.6%
+json-zlib-qr 562 44.8%
+json-zlib-base32 1216 96.9%
+json-zlib-base32-qr 596 47.5%
+cbor 1135 90.4%
+cbor-qr 781 62.2%
+cbor-base32 1816 144.7%
+cbor-base32-qr 862 68.7%
+cbor-zlib 1110 88.4%
+cbor-zlib-qr 742 59.1%
+cbor-zlib-base32 1776 141.5%
+cbor-zlib-base32-qr 821 65.4%
+jsonxt 437 34.8%
+jsonxt-qr 326 26%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/HQ5F3AWKKG.json
+json 1256 100%
+json-qr 862 68.6%
+json-base32 2016 160.5%
+json-base32-qr 947 75.4%
+json-zlib 758 60.4%
+json-zlib-qr 562 44.7%
+json-zlib-base32 1216 96.8%
+json-zlib-base32-qr 596 47.5%
+cbor 1136 90.4%
+cbor-qr 781 62.2%
+cbor-base32 1824 145.2%
+cbor-base32-qr 862 68.6%
+cbor-zlib 1106 88.1%
+cbor-zlib-qr 742 59.1%
+cbor-zlib-base32 1776 141.4%
+cbor-zlib-base32-qr 821 65.4%
+jsonxt 438 34.9%
+jsonxt-qr 326 26%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/ICTZJ43DLJ.json
+json 1234 100%
+json-qr 821 66.5%
+json-base32 1976 160.1%
+json-base32-qr 947 76.7%
+json-zlib 745 60.4%
+json-zlib-qr 529 42.9%
+json-zlib-base32 1192 96.6%
+json-zlib-base32-qr 596 48.3%
+cbor 1113 90.2%
+cbor-qr 781 63.3%
+cbor-base32 1784 144.6%
+cbor-base32-qr 862 69.9%
+cbor-zlib 1097 88.9%
+cbor-zlib-qr 742 60.1%
+cbor-zlib-base32 1760 142.6%
+cbor-zlib-base32-qr 821 66.5%
+jsonxt 435 35.3%
+jsonxt-qr 326 26.4%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/IYRJ5XG4FS.json
+json 1238 100%
+json-qr 862 69.6%
+json-base32 1984 160.3%
+json-base32-qr 947 76.5%
+json-zlib 749 60.5%
+json-zlib-qr 529 42.7%
+json-zlib-base32 1200 96.9%
+json-zlib-base32-qr 596 48.1%
+cbor 1117 90.2%
+cbor-qr 781 63.1%
+cbor-base32 1792 144.7%
+cbor-base32-qr 862 69.6%
+cbor-zlib 1092 88.2%
+cbor-zlib-qr 742 59.9%
+cbor-zlib-base32 1752 141.5%
+cbor-zlib-base32-qr 821 66.3%
+jsonxt 439 35.5%
+jsonxt-qr 326 26.3%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/J3JBSESFWA.json
+json 1255 100%
+json-qr 862 68.7%
+json-base32 2008 160%
+json-base32-qr 947 75.5%
+json-zlib 753 60%
+json-zlib-qr 562 44.8%
+json-zlib-base32 1208 96.3%
+json-zlib-base32-qr 596 47.5%
+cbor 1135 90.4%
+cbor-qr 781 62.2%
+cbor-base32 1816 144.7%
+cbor-base32-qr 862 68.7%
+cbor-zlib 1111 88.5%
+cbor-zlib-qr 742 59.1%
+cbor-zlib-base32 1784 142.2%
+cbor-zlib-base32-qr 862 68.7%
+jsonxt 437 34.8%
+jsonxt-qr 326 26%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/JVNMKLWU4J.json
+json 1243 100%
+json-qr 862 69.3%
+json-base32 1992 160.3%
+json-base32-qr 947 76.2%
+json-zlib 749 60.3%
+json-zlib-qr 529 42.6%
+json-zlib-base32 1200 96.5%
+json-zlib-base32-qr 596 47.9%
+cbor 1122 90.3%
+cbor-qr 781 62.8%
+cbor-base32 1800 144.8%
+cbor-base32-qr 862 69.3%
+cbor-zlib 1095 88.1%
+cbor-zlib-qr 742 59.7%
+cbor-zlib-base32 1752 140.9%
+cbor-zlib-base32-qr 821 66%
+jsonxt 444 35.7%
+jsonxt-qr 326 26.2%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/K4XHQDJYAB.json
+json 1237 100%
+json-qr 862 69.7%
+json-base32 1984 160.4%
+json-base32-qr 947 76.6%
+json-zlib 754 61%
+json-zlib-qr 562 45.4%
+json-zlib-base32 1208 97.7%
+json-zlib-base32-qr 596 48.2%
+cbor 1115 90.1%
+cbor-qr 781 63.1%
+cbor-base32 1784 144.2%
+cbor-base32-qr 821 66.4%
+cbor-zlib 1103 89.2%
+cbor-zlib-qr 742 60%
+cbor-zlib-base32 1768 142.9%
+cbor-zlib-base32-qr 821 66.4%
+jsonxt 480 38.8%
+jsonxt-qr 352 28.5%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/K5CIGNONMZ.json
+json 1238 100%
+json-qr 862 69.6%
+json-base32 1984 160.3%
+json-base32-qr 947 76.5%
+json-zlib 745 60.2%
+json-zlib-qr 529 42.7%
+json-zlib-base32 1192 96.3%
+json-zlib-base32-qr 596 48.1%
+cbor 1116 90.1%
+cbor-qr 781 63.1%
+cbor-base32 1792 144.7%
+cbor-base32-qr 862 69.6%
+cbor-zlib 1099 88.8%
+cbor-zlib-qr 742 59.9%
+cbor-zlib-base32 1760 142.2%
+cbor-zlib-base32-qr 821 66.3%
+jsonxt 475 38.4%
+jsonxt-qr 352 28.4%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/L5E6AGKL4K.json
+json 1229 100%
+json-qr 821 66.8%
+json-base32 1968 160.1%
+json-base32-qr 947 77.1%
+json-zlib 743 60.5%
+json-zlib-qr 529 43%
+json-zlib-base32 1192 97%
+json-zlib-base32-qr 596 48.5%
+cbor 1108 90.2%
+cbor-qr 742 60.4%
+cbor-base32 1776 144.5%
+cbor-base32-qr 821 66.8%
+cbor-zlib 1088 88.5%
+cbor-zlib-qr 742 60.4%
+cbor-zlib-base32 1744 141.9%
+cbor-zlib-base32-qr 821 66.8%
+jsonxt 435 35.4%
+jsonxt-qr 326 26.5%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/LH6LAOWGCY.json
+json 1253 100%
+json-qr 862 68.8%
+json-base32 2008 160.3%
+json-base32-qr 947 75.6%
+json-zlib 761 60.7%
+json-zlib-qr 562 44.9%
+json-zlib-base32 1224 97.7%
+json-zlib-base32-qr 596 47.6%
+cbor 1133 90.4%
+cbor-qr 781 62.3%
+cbor-base32 1816 144.9%
+cbor-base32-qr 862 68.8%
+cbor-zlib 1113 88.8%
+cbor-zlib-qr 781 62.3%
+cbor-zlib-base32 1784 142.4%
+cbor-zlib-base32-qr 862 68.8%
+jsonxt 441 35.2%
+jsonxt-qr 326 26%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/LLU3W2HNQV.json
+json 1231 100%
+json-qr 821 66.7%
+json-base32 1976 160.5%
+json-base32-qr 947 76.9%
+json-zlib 749 60.8%
+json-zlib-qr 529 43%
+json-zlib-base32 1200 97.5%
+json-zlib-base32-qr 596 48.4%
+cbor 1110 90.2%
+cbor-qr 742 60.3%
+cbor-base32 1776 144.3%
+cbor-base32-qr 821 66.7%
+cbor-zlib 1095 89%
+cbor-zlib-qr 742 60.3%
+cbor-zlib-base32 1752 142.3%
+cbor-zlib-base32-qr 821 66.7%
+jsonxt 438 35.6%
+jsonxt-qr 326 26.5%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/LWGREHSDTK.json
+json 1229 100%
+json-qr 821 66.8%
+json-base32 1968 160.1%
+json-base32-qr 947 77.1%
+json-zlib 747 60.8%
+json-zlib-qr 529 43%
+json-zlib-base32 1200 97.6%
+json-zlib-base32-qr 596 48.5%
+cbor 1107 90.1%
+cbor-qr 742 60.4%
+cbor-base32 1776 144.5%
+cbor-base32-qr 821 66.8%
+cbor-zlib 1098 89.3%
+cbor-zlib-qr 742 60.4%
+cbor-zlib-base32 1760 143.2%
+cbor-zlib-base32-qr 821 66.8%
+jsonxt 472 38.4%
+jsonxt-qr 352 28.6%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/MD5OE2BFBH.json
+json 1235 100%
+json-qr 821 66.5%
+json-base32 1976 160%
+json-base32-qr 947 76.7%
+json-zlib 747 60.5%
+json-zlib-qr 529 42.8%
+json-zlib-base32 1200 97.2%
+json-zlib-base32-qr 596 48.3%
+cbor 1114 90.2%
+cbor-qr 781 63.2%
+cbor-base32 1784 144.5%
+cbor-base32-qr 862 69.8%
+cbor-zlib 1104 89.4%
+cbor-zlib-qr 742 60.1%
+cbor-zlib-base32 1768 143.2%
+cbor-zlib-base32-qr 821 66.5%
+jsonxt 437 35.4%
+jsonxt-qr 326 26.4%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/MQIQRMOLCL.json
+json 1233 100%
+json-qr 821 66.6%
+json-base32 1976 160.3%
+json-base32-qr 947 76.8%
+json-zlib 750 60.8%
+json-zlib-qr 529 42.9%
+json-zlib-base32 1200 97.3%
+json-zlib-base32-qr 596 48.3%
+cbor 1112 90.2%
+cbor-qr 742 60.2%
+cbor-base32 1784 144.7%
+cbor-base32-qr 862 69.9%
+cbor-zlib 1094 88.7%
+cbor-zlib-qr 742 60.2%
+cbor-zlib-base32 1752 142.1%
+cbor-zlib-base32-qr 821 66.6%
+jsonxt 440 35.7%
+jsonxt-qr 326 26.4%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/OSS52RWIDI.json
+json 1240 100%
+json-qr 862 69.5%
+json-base32 1984 160%
+json-base32-qr 947 76.4%
+json-zlib 746 60.2%
+json-zlib-qr 529 42.7%
+json-zlib-base32 1200 96.8%
+json-zlib-base32-qr 596 48.1%
+cbor 1119 90.2%
+cbor-qr 781 63%
+cbor-base32 1792 144.5%
+cbor-base32-qr 862 69.5%
+cbor-zlib 1099 88.6%
+cbor-zlib-qr 742 59.8%
+cbor-zlib-base32 1760 141.9%
+cbor-zlib-base32-qr 821 66.2%
+jsonxt 436 35.2%
+jsonxt-qr 326 26.3%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/PJGTKIXPK3.json
+json 1251 100%
+json-qr 862 68.9%
+json-base32 2008 160.5%
+json-base32-qr 947 75.7%
+json-zlib 755 60.4%
+json-zlib-qr 562 44.9%
+json-zlib-base32 1208 96.6%
+json-zlib-base32-qr 596 47.6%
+cbor 1130 90.3%
+cbor-qr 781 62.4%
+cbor-base32 1808 144.5%
+cbor-base32-qr 862 68.9%
+cbor-zlib 1111 88.8%
+cbor-zlib-qr 742 59.3%
+cbor-zlib-base32 1784 142.6%
+cbor-zlib-base32-qr 862 68.9%
+jsonxt 447 35.7%
+jsonxt-qr 326 26.1%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/SOMQ43OALT.json
+json 1221 100%
+json-qr 821 67.2%
+json-base32 1960 160.5%
+json-base32-qr 904 74%
+json-zlib 735 60.2%
+json-zlib-qr 529 43.3%
+json-zlib-base32 1176 96.3%
+json-zlib-base32-qr 596 48.8%
+cbor 1100 90.1%
+cbor-qr 742 60.8%
+cbor-base32 1760 144.1%
+cbor-base32-qr 821 67.2%
+cbor-zlib 1082 88.6%
+cbor-zlib-qr 742 60.8%
+cbor-zlib-base32 1736 142.2%
+cbor-zlib-base32-qr 821 67.2%
+jsonxt 428 35.1%
+jsonxt-qr 326 26.7%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/SXBJQFFXRW.json
+json 1255 100%
+json-qr 862 68.7%
+json-base32 2008 160%
+json-base32-qr 947 75.5%
+json-zlib 757 60.3%
+json-zlib-qr 562 44.8%
+json-zlib-base32 1216 96.9%
+json-zlib-base32-qr 596 47.5%
+cbor 1135 90.4%
+cbor-qr 781 62.2%
+cbor-base32 1816 144.7%
+cbor-base32-qr 862 68.7%
+cbor-zlib 1107 88.2%
+cbor-zlib-qr 742 59.1%
+cbor-zlib-base32 1776 141.5%
+cbor-zlib-base32-qr 821 65.4%
+jsonxt 437 34.8%
+jsonxt-qr 326 26%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/VGD4SREPPG.json
+json 1253 100%
+json-qr 862 68.8%
+json-base32 2008 160.3%
+json-base32-qr 947 75.6%
+json-zlib 755 60.3%
+json-zlib-qr 562 44.9%
+json-zlib-base32 1208 96.4%
+json-zlib-base32-qr 596 47.6%
+cbor 1133 90.4%
+cbor-qr 781 62.3%
+cbor-base32 1816 144.9%
+cbor-base32-qr 862 68.8%
+cbor-zlib 1102 87.9%
+cbor-zlib-qr 742 59.2%
+cbor-zlib-base32 1768 141.1%
+cbor-zlib-base32-qr 821 65.5%
+jsonxt 435 34.7%
+jsonxt-qr 326 26%
+
+file /Users/david/consensas/ghp-data-sample/cooked/us/XRNTVG3GLB.json
+json 1258 100%
+json-qr 862 68.5%
+json-base32 2016 160.3%
+json-base32-qr 947 75.3%
+json-zlib 758 60.3%
+json-zlib-qr 562 44.7%
+json-zlib-base32 1216 96.7%
+json-zlib-base32-qr 596 47.4%
+cbor 1138 90.5%
+cbor-qr 781 62.1%
+cbor-base32 1824 145%
+cbor-base32-qr 862 68.5%
+cbor-zlib 1112 88.4%
+cbor-zlib-qr 742 59%
+cbor-zlib-base32 1784 141.8%
+cbor-zlib-base32-qr 862 68.5%
+jsonxt 440 35%
+jsonxt-qr 326 25.9%
+

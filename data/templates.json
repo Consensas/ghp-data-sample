@@ -1,0 +1,158 @@
+{
+  "ghpv:1": {
+    "columns": [
+      {
+        "path": "id",
+        "encoder": "string"
+      },
+      {
+        "path": "issuer",
+        "encoder": "string",
+        "compact": [
+          "did:example:489398593"
+        ]
+      },
+      {
+        "path": "issuanceDate",
+        "encoder": "isodatetime-epoch-base32"
+      },
+      {
+        "path": "expirationDate",
+        "encoder": "isodatetime-epoch-base32"
+      },
+      {
+        "path": "credentialSubject.recipient",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.birthDate",
+        "encoder": "isodate-1900-base32"
+      },
+      {
+        "path": "credentialSubject.gender",
+        "encoder": "string",
+        "compact": [
+          "F",
+          "M"
+        ]
+      },
+      {
+        "path": "credentialSubject.givenName",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.familyName",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.dateOfVaccination",
+        "encoder": "isodate-1900-base32"
+      },
+      {
+        "path": "credentialSubject.administeringCentre",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.healthProfessional",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.countryOfVaccination",
+        "encoder": "string",
+        "compact": [
+          "US"
+        ]
+      },
+      {
+        "path": "credentialSubject.stateOfVaccination",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.batchNumber",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.cycleNumber",
+        "encoder": "string",
+        "compact": [
+          "2",
+          "1"
+        ]
+      },
+      {
+        "path": "credentialSubject.vaccineEvent",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.linkedVaccineEvent",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.medicinalProductName",
+        "encoder": "string",
+        "compact": [
+          "Janssen COVID-19 Vaccine",
+          "AstraZeneca COVID-19 Vaccine",
+          "Moderna COVID-19 Vaccine"
+        ]
+      },
+      {
+        "path": "credentialSubject.marketingAuthorizationHolder",
+        "encoder": "string",
+        "compact": [
+          "Janssen Products, LP",
+          "AstraZeneca Pharmaceuticals LP",
+          "Moderna Biotech"
+        ]
+      },
+      {
+        "path": "credentialSubject.disease",
+        "encoder": "string",
+        "compact": [
+          "COVID-19"
+        ]
+      },
+      {
+        "path": "credentialSubject.cvxCode",
+        "encoder": "string",
+        "compact": [
+          "212",
+          "210",
+          "207"
+        ]
+      },
+      {
+        "path": "proof.created",
+        "encoder": "isodatetime-epoch-base32"
+      },
+      {
+        "path": "proof.proofValue",
+        "encoder": "string"
+      },
+      {
+        "path": "proof.verificationMethod",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.nextVaccinationDate",
+        "encoder": "isodate-1900-base32"
+      }
+    ],
+    "template": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://GOODHEALTHPASS.COM/vaccination/v1",
+        "https://w3id.org/security/bbs/v1"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "VaccinationCredential"
+      ],
+      "credentialSubject": {},
+      "proof": {
+        "type": "BbsBlsSignature2020",
+        "proofPurpose": "assertionMethod"
+      }
+    }
+  }
+}
