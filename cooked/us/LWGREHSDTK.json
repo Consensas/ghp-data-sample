@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "LWGREHSDTK",
     "birthDate": "2009-05-23",
     "gender": "M",
     "givenName": "Donald",
-    "middleName": null,
     "familyName": "Bryant",
     "dateOfVaccination": "2021-01-27",
     "administeringCentre": "Drake's Drug Store, Cruzshire",
-    "healthProfessional": "568d9aea",
+    "healthProfessional": "43061045",
     "countryOfVaccination": "US",
     "stateOfVaccination": "IL",
-    "batchNumber": "eacccee7",
+    "batchNumber": "5fd4bf0b",
     "cycleNumber": "2",
-    "nextVaccinationDate": null,
-    "vaccineEvent": "61f2aafd",
-    "linkedVaccineEvent": "085c4759",
-    "medicinalProductName": "Janssen COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
-    "cvxCode": "212"
+    "vaccineEvent": "f88cea53",
+    "linkedVaccineEvent": "cd6088d0",
+    "medicinalProductName": "Pfizer COVID-19 Vaccine",
+    "marketingAuthorizationHolder": "Pfizer-BioNTech",
+    "disease": "COVID-19",
+    "cvxCode": "208"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz3207ba25088f91c6",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzf2c3965b4d573d4c",
+    "verificationMethod": "did:example:489398593#ba192d17"
   }
 }

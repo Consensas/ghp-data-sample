@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "SOMQ43OALT",
     "birthDate": "1960-05-08",
     "gender": "F",
     "givenName": "Kim",
-    "middleName": null,
     "familyName": "Lewis",
     "dateOfVaccination": "2021-01-12",
     "administeringCentre": "Ball's Clinc, North Lisa",
-    "healthProfessional": "ca242491",
+    "healthProfessional": "2cd1021d",
     "countryOfVaccination": "US",
     "stateOfVaccination": "SC",
-    "batchNumber": "80d0724b",
+    "batchNumber": "c26ed4ac",
     "cycleNumber": "2",
-    "nextVaccinationDate": null,
-    "vaccineEvent": "9da32c66",
-    "linkedVaccineEvent": "037263c2",
-    "medicinalProductName": "AstraZeneca COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
-    "cvxCode": "210"
+    "vaccineEvent": "b5110e07",
+    "linkedVaccineEvent": "9490f05a",
+    "medicinalProductName": "Moderna COVID-19 Vaccine",
+    "marketingAuthorizationHolder": "Moderna Biotech",
+    "disease": "COVID-19",
+    "cvxCode": "207"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzde508c6fcbbd6b21",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz0609ea2d40368151",
+    "verificationMethod": "did:example:489398593#8a65d79c"
   }
 }

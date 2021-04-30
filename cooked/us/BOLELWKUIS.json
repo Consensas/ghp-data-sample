@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "BOLELWKUIS",
     "birthDate": "1949-01-12",
     "gender": "F",
     "givenName": "Melissa",
-    "middleName": null,
     "familyName": "Walker",
     "dateOfVaccination": "2021-01-16",
     "administeringCentre": "Wells's Clinc, North Rebeccastad",
-    "healthProfessional": "5f027581",
+    "healthProfessional": "0d6465b3",
     "countryOfVaccination": "US",
     "stateOfVaccination": "CO",
-    "batchNumber": "83e9daeb",
-    "cycleNumber": "1",
-    "nextVaccinationDate": "2021-03-13",
-    "vaccineEvent": "7e480e03",
-    "linkedVaccineEvent": null,
-    "medicinalProductName": "Moderna COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
-    "cvxCode": "207"
+    "batchNumber": "ea4115a0",
+    "cycleNumber": "2",
+    "vaccineEvent": "bff05c55",
+    "linkedVaccineEvent": "267cd68d",
+    "medicinalProductName": "Pfizer COVID-19 Vaccine",
+    "marketingAuthorizationHolder": "Pfizer-BioNTech",
+    "disease": "COVID-19",
+    "cvxCode": "208"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz80c8ea43537dae1f",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz93096fe6db58812d",
+    "verificationMethod": "did:example:489398593#7bc49485"
   }
 }

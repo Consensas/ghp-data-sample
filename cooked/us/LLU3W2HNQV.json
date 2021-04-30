@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "LLU3W2HNQV",
     "birthDate": "1991-03-26",
     "gender": "M",
     "givenName": "David",
-    "middleName": null,
     "familyName": "Rodriguez",
     "dateOfVaccination": "2021-01-01",
     "administeringCentre": "Smith's Clinc, Wilkersonland",
-    "healthProfessional": "8a10b340",
+    "healthProfessional": "184238e7",
     "countryOfVaccination": "US",
     "stateOfVaccination": "WY",
-    "batchNumber": "89f20e5a",
-    "cycleNumber": "1",
-    "nextVaccinationDate": "2021-03-26",
-    "vaccineEvent": "28f2c507",
-    "linkedVaccineEvent": null,
-    "medicinalProductName": "Janssen COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
-    "cvxCode": "212"
+    "batchNumber": "90ed3c8a",
+    "cycleNumber": "2",
+    "vaccineEvent": "19d46a44",
+    "linkedVaccineEvent": "d7fcffcc",
+    "medicinalProductName": "Moderna COVID-19 Vaccine",
+    "marketingAuthorizationHolder": "Moderna Biotech",
+    "disease": "COVID-19",
+    "cvxCode": "207"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz8f3692b3d16782c1",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz4d9df4fb212abb65",
+    "verificationMethod": "did:example:489398593#1e1fe509"
   }
 }

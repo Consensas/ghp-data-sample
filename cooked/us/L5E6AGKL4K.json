@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "L5E6AGKL4K",
     "birthDate": "1930-02-24",
     "gender": "F",
     "givenName": "Megan",
-    "middleName": null,
     "familyName": "Rogers",
     "dateOfVaccination": "2021-04-19",
     "administeringCentre": "Sanchez's Clinc, Bonillamouth",
-    "healthProfessional": "19cbfecb",
+    "healthProfessional": "2ec07b54",
     "countryOfVaccination": "US",
     "stateOfVaccination": "WA",
-    "batchNumber": "e0c9abe2",
-    "cycleNumber": "1",
-    "nextVaccinationDate": "2021-06-14",
-    "vaccineEvent": "b8ab6260",
-    "linkedVaccineEvent": null,
-    "medicinalProductName": "Pfizer COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
-    "cvxCode": "208"
+    "batchNumber": "0aca882d",
+    "cycleNumber": "2",
+    "vaccineEvent": "1c45185f",
+    "linkedVaccineEvent": "66740d32",
+    "medicinalProductName": "Moderna COVID-19 Vaccine",
+    "marketingAuthorizationHolder": "Moderna Biotech",
+    "disease": "COVID-19",
+    "cvxCode": "207"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz474a8c1660334a36",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz00ffd05308f044d5",
+    "verificationMethod": "did:example:489398593#3a620a02"
   }
 }

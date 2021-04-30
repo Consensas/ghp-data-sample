@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "OSS52RWIDI",
     "birthDate": "1961-06-03",
     "gender": "F",
     "givenName": "Lauren",
-    "middleName": null,
     "familyName": "Moses",
     "dateOfVaccination": "2021-04-06",
     "administeringCentre": "Davidson's Hosptial, Port Samuel",
-    "healthProfessional": "2220113e",
+    "healthProfessional": "f2991590",
     "countryOfVaccination": "US",
     "stateOfVaccination": "NJ",
-    "batchNumber": "f2835f14",
-    "cycleNumber": "2",
-    "nextVaccinationDate": null,
-    "vaccineEvent": "fbd3ad19",
-    "linkedVaccineEvent": "6e6574e8",
+    "batchNumber": "12eb264e",
+    "cycleNumber": "1",
+    "nextVaccinationDate": "2021-06-29",
+    "vaccineEvent": "3161fe89",
     "medicinalProductName": "Janssen COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
+    "marketingAuthorizationHolder": "Janssen Products, LP",
+    "disease": "COVID-19",
     "cvxCode": "212"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz64a6b2bc11403f3f",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz5fffbf1b6d051259",
+    "verificationMethod": "did:example:489398593#bf9aeb9c"
   }
 }

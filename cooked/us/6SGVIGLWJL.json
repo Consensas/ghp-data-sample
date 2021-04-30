@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "6SGVIGLWJL",
     "birthDate": "2009-11-25",
     "gender": "F",
     "givenName": "Dana",
-    "middleName": null,
     "familyName": "Glenn",
     "dateOfVaccination": "2021-04-26",
     "administeringCentre": "Spencer's Drug Store, Edwardton",
-    "healthProfessional": "00401878",
+    "healthProfessional": "ae1cd10d",
     "countryOfVaccination": "US",
     "stateOfVaccination": "NC",
-    "batchNumber": "e22665aa",
-    "cycleNumber": "2",
-    "nextVaccinationDate": null,
-    "vaccineEvent": "d60512ac",
-    "linkedVaccineEvent": "240fd554",
-    "medicinalProductName": "Janssen COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
-    "cvxCode": "212"
+    "batchNumber": "81f4e150",
+    "cycleNumber": "1",
+    "nextVaccinationDate": "2021-08-16",
+    "vaccineEvent": "bfe4a853",
+    "medicinalProductName": "AstraZeneca COVID-19 Vaccine",
+    "marketingAuthorizationHolder": "AstraZeneca Pharmaceuticals LP",
+    "disease": "COVID-19",
+    "cvxCode": "210"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz08a62cb5b1c09a12",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzca746b0d8c7608c1",
+    "verificationMethod": "did:example:489398593#a2de68e2"
   }
 }

@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "ICTZJ43DLJ",
     "birthDate": "1931-08-05",
     "gender": "F",
     "givenName": "Madison",
-    "middleName": null,
     "familyName": "King",
     "dateOfVaccination": "2021-03-28",
     "administeringCentre": "Jackson's Hosptial, Davidberg",
-    "healthProfessional": "cadc2771",
+    "healthProfessional": "24a3f9ae",
     "countryOfVaccination": "US",
     "stateOfVaccination": "AK",
-    "batchNumber": "791bff89",
-    "cycleNumber": "1",
-    "nextVaccinationDate": "2021-05-23",
-    "vaccineEvent": "a20888fa",
-    "linkedVaccineEvent": null,
-    "medicinalProductName": "Pfizer COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
-    "cvxCode": "208"
+    "batchNumber": "f24bfff7",
+    "cycleNumber": "2",
+    "vaccineEvent": "631a73c0",
+    "linkedVaccineEvent": "ba5d7ca9",
+    "medicinalProductName": "Janssen COVID-19 Vaccine",
+    "marketingAuthorizationHolder": "Janssen Products, LP",
+    "disease": "COVID-19",
+    "cvxCode": "212"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz9e8877cb9ab253ec",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzc543d6517283cc2b",
+    "verificationMethod": "did:example:489398593#5f91dd08"
   }
 }

@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "4R65Z5LMFZ",
     "birthDate": "2005-01-15",
     "gender": "M",
     "givenName": "Alexander",
-    "middleName": null,
     "familyName": "Quinn",
     "dateOfVaccination": "2021-02-27",
     "administeringCentre": "Fowler's Clinc, Rosschester",
-    "healthProfessional": "ebaf0bf6",
+    "healthProfessional": "33bbae57",
     "countryOfVaccination": "US",
     "stateOfVaccination": "ID",
-    "batchNumber": "d46c132f",
-    "cycleNumber": "1",
-    "nextVaccinationDate": "2021-05-22",
-    "vaccineEvent": "e666f833",
-    "linkedVaccineEvent": null,
+    "batchNumber": "016d12bd",
+    "cycleNumber": "2",
+    "vaccineEvent": "baf54b7f",
+    "linkedVaccineEvent": "9928b4c5",
     "medicinalProductName": "Janssen COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
+    "marketingAuthorizationHolder": "Janssen Products, LP",
+    "disease": "COVID-19",
     "cvxCode": "212"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz2cda6c13ce219615",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzd1bdce90f17edaa4",
+    "verificationMethod": "did:example:489398593#4f01fa67"
   }
 }

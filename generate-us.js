@@ -29,6 +29,7 @@ const path = require("path")
 
 const isodate = date => date.toISOString().replace(/[.]\d\d\dZ$/, "Z")
 
+// https://www.cdc.gov/vaccines/programs/iis/COVID-19-related-codes.html
 const vaccines = [
     {
         "cvx": "207",
@@ -36,6 +37,8 @@ const vaccines = [
         "mvx": "MOD",
         "cpt": "91301",
         "weeks": 8,
+        "disease": "COVID-19",
+        "marketingAuthorizationHolder": "Moderna Biotech",
     },
     {
         "cvx": "208",
@@ -43,6 +46,8 @@ const vaccines = [
         "mvx": "PFR",
         "cpt": "91300",
         "weeks": 8,
+        "disease": "COVID-19",
+        "marketingAuthorizationHolder": "Pfizer-BioNTech",
     },
     {
         "cvx": "210",
@@ -50,6 +55,8 @@ const vaccines = [
         "mvx": "ASZ",
         "cpt": "91302",
         "weeks": 16,
+        "disease": "COVID-19",
+        "marketingAuthorizationHolder": "AstraZeneca Pharmaceuticals LP",
     },
     {
         "cvx": "212",
@@ -57,6 +64,8 @@ const vaccines = [
         "mvx": "JSN",
         "cpt": "91303",
         "weeks": 12,
+        "disease": "COVID-19",
+        "marketingAuthorizationHolder": "Janssen Products, LP",
     },
 ]
 
@@ -87,7 +96,7 @@ const sign = _.promise((self, done) => {
                 "created": sd.now,
                 "proofPurpose": "assertionMethod",
                 "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz" + _.random.id(16),
-                "verificationMethod": "did:example:489398593#test"
+                "verificationMethod": "did:example:489398593#" + _.random.id(8),
               }
             }
         })
@@ -143,10 +152,14 @@ const make_covid_flat = _.promise((self, done) => {
                 "vaccineEvent": _.random.id(8),
                 "linkedVaccineEvent": sequence === 2 ? _.random.id(8) : null,
                 "medicinalProductName": vd.name,
-                "_marketingAuthorizationHolder": "???",
+                "marketingAuthorizationHolder": vd.marketingAuthorizationHolder,
+                "disease": vd.disease,
                 "cvxCode": vd.cvx,
             }
+
+            sd.record = _.d.transform.denull(sd.record)
         })
+
 
         .end(done, self, make_covid_flat)
 })

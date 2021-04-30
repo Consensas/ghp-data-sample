@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "K5CIGNONMZ",
     "birthDate": "1971-01-22",
     "gender": "M",
     "givenName": "Joseph",
-    "middleName": null,
     "familyName": "Jones",
     "dateOfVaccination": "2021-03-13",
     "administeringCentre": "Nash's Drug Store, North Ashleyville",
-    "healthProfessional": "7e408041",
+    "healthProfessional": "84a01f57",
     "countryOfVaccination": "US",
     "stateOfVaccination": "LA",
-    "batchNumber": "ff3216a0",
-    "cycleNumber": "2",
-    "nextVaccinationDate": null,
-    "vaccineEvent": "e39f2f7b",
-    "linkedVaccineEvent": "6c14bc71",
+    "batchNumber": "e6b50fbf",
+    "cycleNumber": "1",
+    "nextVaccinationDate": "2021-05-08",
+    "vaccineEvent": "f6ae7cdd",
     "medicinalProductName": "Pfizer COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
+    "marketingAuthorizationHolder": "Pfizer-BioNTech",
+    "disease": "COVID-19",
     "cvxCode": "208"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz252f579b03b99e73",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz1b066ccbd896dddf",
+    "verificationMethod": "did:example:489398593#b00008e2"
   }
 }

@@ -10,34 +10,33 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2021-04-30T09:45:19Z",
-  "expirationDate": "2021-05-07T09:45:19Z",
+  "issuanceDate": "2021-04-30T10:34:12Z",
+  "expirationDate": "2021-05-07T10:34:12Z",
   "credentialSubject": {
     "recipient": "LH6LAOWGCY",
     "birthDate": "1936-05-09",
     "gender": "M",
     "givenName": "Stephen",
-    "middleName": null,
     "familyName": "Mann",
     "dateOfVaccination": "2021-02-02",
     "administeringCentre": "Houston's Clinc, North Brandyville",
-    "healthProfessional": "5b3539c6",
+    "healthProfessional": "f889616a",
     "countryOfVaccination": "US",
     "stateOfVaccination": "MT",
-    "batchNumber": "17d85498",
+    "batchNumber": "d936a2d3",
     "cycleNumber": "2",
-    "nextVaccinationDate": null,
-    "vaccineEvent": "0320649f",
-    "linkedVaccineEvent": "70ca8aae",
+    "vaccineEvent": "887c174d",
+    "linkedVaccineEvent": "aa45e83b",
     "medicinalProductName": "AstraZeneca COVID-19 Vaccine",
-    "_marketingAuthorizationHolder": "???",
+    "marketingAuthorizationHolder": "AstraZeneca Pharmaceuticals LP",
+    "disease": "COVID-19",
     "cvxCode": "210"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-30T09:45:19Z",
+    "created": "2021-04-30T10:34:12Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz4163f7a0c730c248",
-    "verificationMethod": "did:example:489398593#test"
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz7aeb9a3f72d5fc00",
+    "verificationMethod": "did:example:489398593#c0070b03"
   }
 }
