@@ -10,8 +10,8 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2019-12-03T12:19:52Z",
-  "expirationDate": "2029-12-03T12:19:52Z",
+  "issuanceDate": "2021-04-30T09:45:19Z",
+  "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
     "recipient": "ICTZJ43DLJ",
     "birthDate": "1931-08-05",
@@ -21,23 +21,23 @@
     "familyName": "King",
     "dateOfVaccination": "2021-03-28",
     "administeringCentre": "Jackson's Hosptial, Davidberg",
-    "healthProfessional": "dc4d21f7",
+    "healthProfessional": "cadc2771",
     "countryOfVaccination": "US",
     "stateOfVaccination": "AK",
-    "batchNumber": "f2a1bbb4",
+    "batchNumber": "791bff89",
     "cycleNumber": "1",
     "nextVaccinationDate": "2021-05-23",
-    "vaccineEvent": "5fc8fb70",
+    "vaccineEvent": "a20888fa",
     "linkedVaccineEvent": null,
-    "medicinalProductName": "Moderna COVID-19 Vaccine",
+    "medicinalProductName": "Pfizer COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
-    "cvxCode": "207"
+    "cvxCode": "208"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-29T12:35:04Z",
+    "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz+oZYt4plzA==",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz9e8877cb9ab253ec",
     "verificationMethod": "did:example:489398593#test"
   }
 }

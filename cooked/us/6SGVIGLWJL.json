@@ -10,8 +10,8 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2019-12-03T12:19:52Z",
-  "expirationDate": "2029-12-03T12:19:52Z",
+  "issuanceDate": "2021-04-30T09:45:19Z",
+  "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
     "recipient": "6SGVIGLWJL",
     "birthDate": "2009-11-25",
@@ -21,23 +21,23 @@
     "familyName": "Glenn",
     "dateOfVaccination": "2021-04-26",
     "administeringCentre": "Spencer's Drug Store, Edwardton",
-    "healthProfessional": "96f444f5",
+    "healthProfessional": "00401878",
     "countryOfVaccination": "US",
     "stateOfVaccination": "NC",
-    "batchNumber": "1e2880df",
-    "cycleNumber": "1",
-    "nextVaccinationDate": "2021-06-21",
-    "vaccineEvent": "0b1df558",
-    "linkedVaccineEvent": null,
-    "medicinalProductName": "Pfizer COVID-19 Vaccine",
+    "batchNumber": "e22665aa",
+    "cycleNumber": "2",
+    "nextVaccinationDate": null,
+    "vaccineEvent": "d60512ac",
+    "linkedVaccineEvent": "240fd554",
+    "medicinalProductName": "Janssen COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
-    "cvxCode": "208"
+    "cvxCode": "212"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-29T12:35:04Z",
+    "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz+oZYt4plzA==",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz08a62cb5b1c09a12",
     "verificationMethod": "did:example:489398593#test"
   }
 }

@@ -4,7 +4,7 @@
     "https://GOODHEALTHPASS.COM/vaccination/v1",
     "https://w3id.org/security/bbs/v1"
   ],
-  "id": "https://issuer.oidp.uscis.gov/credentials/MD5OE2BFBH",
+  "id": "https://issuer.oidp.uscis.gov/credentials/K5CIGNONMZ",
   "type": [
     "VerifiableCredential",
     "VaccinationCredential"
@@ -13,31 +13,31 @@
   "issuanceDate": "2021-04-30T09:45:19Z",
   "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
-    "recipient": "MD5OE2BFBH",
-    "birthDate": "1983-11-19",
+    "recipient": "K5CIGNONMZ",
+    "birthDate": "1971-01-22",
     "gender": "M",
-    "givenName": "Robert",
+    "givenName": "Joseph",
     "middleName": null,
-    "familyName": "Hall",
-    "dateOfVaccination": "2021-01-17",
-    "administeringCentre": "Owens's Hosptial, West Virginia",
-    "healthProfessional": "d32722bf",
+    "familyName": "Jones",
+    "dateOfVaccination": "2021-03-13",
+    "administeringCentre": "Nash's Drug Store, North Ashleyville",
+    "healthProfessional": "7e408041",
     "countryOfVaccination": "US",
-    "stateOfVaccination": "UT",
-    "batchNumber": "baa2b0a1",
+    "stateOfVaccination": "LA",
+    "batchNumber": "ff3216a0",
     "cycleNumber": "2",
     "nextVaccinationDate": null,
-    "vaccineEvent": "7362d30d",
-    "linkedVaccineEvent": "3f2550f8",
-    "medicinalProductName": "Moderna COVID-19 Vaccine",
+    "vaccineEvent": "e39f2f7b",
+    "linkedVaccineEvent": "6c14bc71",
+    "medicinalProductName": "Pfizer COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
-    "cvxCode": "207"
+    "cvxCode": "208"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
     "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz13b96f8e2b26682e",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz252f579b03b99e73",
     "verificationMethod": "did:example:489398593#test"
   }
 }

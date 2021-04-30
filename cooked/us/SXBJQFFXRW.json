@@ -4,7 +4,7 @@
     "https://GOODHEALTHPASS.COM/vaccination/v1",
     "https://w3id.org/security/bbs/v1"
   ],
-  "id": "https://issuer.oidp.uscis.gov/credentials/MD5OE2BFBH",
+  "id": "https://issuer.oidp.uscis.gov/credentials/SXBJQFFXRW",
   "type": [
     "VerifiableCredential",
     "VaccinationCredential"
@@ -13,31 +13,31 @@
   "issuanceDate": "2021-04-30T09:45:19Z",
   "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
-    "recipient": "MD5OE2BFBH",
-    "birthDate": "1983-11-19",
-    "gender": "M",
-    "givenName": "Robert",
+    "recipient": "SXBJQFFXRW",
+    "birthDate": "1942-04-02",
+    "gender": "F",
+    "givenName": "Marie",
     "middleName": null,
-    "familyName": "Hall",
-    "dateOfVaccination": "2021-01-17",
-    "administeringCentre": "Owens's Hosptial, West Virginia",
-    "healthProfessional": "d32722bf",
+    "familyName": "Powell",
+    "dateOfVaccination": "2021-03-31",
+    "administeringCentre": "Green's Drug Store, South Matthew",
+    "healthProfessional": "fe288654",
     "countryOfVaccination": "US",
     "stateOfVaccination": "UT",
-    "batchNumber": "baa2b0a1",
+    "batchNumber": "84fea514",
     "cycleNumber": "2",
     "nextVaccinationDate": null,
-    "vaccineEvent": "7362d30d",
-    "linkedVaccineEvent": "3f2550f8",
-    "medicinalProductName": "Moderna COVID-19 Vaccine",
+    "vaccineEvent": "6bd102b4",
+    "linkedVaccineEvent": "290df253",
+    "medicinalProductName": "Janssen COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
-    "cvxCode": "207"
+    "cvxCode": "212"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
     "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz13b96f8e2b26682e",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz8da01c9a1f6443ad",
     "verificationMethod": "did:example:489398593#test"
   }
 }

@@ -4,7 +4,7 @@
     "https://GOODHEALTHPASS.COM/vaccination/v1",
     "https://w3id.org/security/bbs/v1"
   ],
-  "id": "https://issuer.oidp.uscis.gov/credentials/SOMQ43OALT",
+  "id": "https://issuer.oidp.uscis.gov/credentials/J3JBSESFWA",
   "type": [
     "VerifiableCredential",
     "VaccinationCredential"
@@ -13,22 +13,22 @@
   "issuanceDate": "2021-04-30T09:45:19Z",
   "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
-    "recipient": "SOMQ43OALT",
-    "birthDate": "1960-05-08",
+    "recipient": "J3JBSESFWA",
+    "birthDate": "2004-09-06",
     "gender": "F",
-    "givenName": "Kim",
+    "givenName": "Rhonda",
     "middleName": null,
-    "familyName": "Lewis",
-    "dateOfVaccination": "2021-01-12",
-    "administeringCentre": "Ball's Clinc, North Lisa",
-    "healthProfessional": "ca242491",
+    "familyName": "Jones",
+    "dateOfVaccination": "2021-02-05",
+    "administeringCentre": "Sullivan's Drug Store, North Eric",
+    "healthProfessional": "e1b81ce3",
     "countryOfVaccination": "US",
-    "stateOfVaccination": "SC",
-    "batchNumber": "80d0724b",
+    "stateOfVaccination": "KS",
+    "batchNumber": "a362b373",
     "cycleNumber": "2",
     "nextVaccinationDate": null,
-    "vaccineEvent": "9da32c66",
-    "linkedVaccineEvent": "037263c2",
+    "vaccineEvent": "f77e1053",
+    "linkedVaccineEvent": "8536cc40",
     "medicinalProductName": "AstraZeneca COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
     "cvxCode": "210"
@@ -37,7 +37,7 @@
     "type": "BbsBlsSignature2020",
     "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzde508c6fcbbd6b21",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzcb6ee2cc0d8e2123",
     "verificationMethod": "did:example:489398593#test"
   }
 }

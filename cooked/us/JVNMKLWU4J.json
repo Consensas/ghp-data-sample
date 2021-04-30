@@ -10,8 +10,8 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2019-12-03T12:19:52Z",
-  "expirationDate": "2029-12-03T12:19:52Z",
+  "issuanceDate": "2021-04-30T09:45:19Z",
+  "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
     "recipient": "JVNMKLWU4J",
     "birthDate": "2003-04-27",
@@ -21,23 +21,23 @@
     "familyName": "Cunningham",
     "dateOfVaccination": "2021-02-07",
     "administeringCentre": "Goodwin's Hosptial, North Meredith",
-    "healthProfessional": "b686709b",
+    "healthProfessional": "56f88c4e",
     "countryOfVaccination": "US",
     "stateOfVaccination": "AL",
-    "batchNumber": "4fc4308b",
-    "cycleNumber": "1",
-    "nextVaccinationDate": "2021-05-30",
-    "vaccineEvent": "15473615",
-    "linkedVaccineEvent": null,
-    "medicinalProductName": "AstraZeneca COVID-19 Vaccine",
+    "batchNumber": "d7e99f95",
+    "cycleNumber": "2",
+    "nextVaccinationDate": null,
+    "vaccineEvent": "7982b124",
+    "linkedVaccineEvent": "f23fb425",
+    "medicinalProductName": "Janssen COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
-    "cvxCode": "210"
+    "cvxCode": "212"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-29T12:35:04Z",
+    "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz+oZYt4plzA==",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz7d22177914b67f2f",
     "verificationMethod": "did:example:489398593#test"
   }
 }

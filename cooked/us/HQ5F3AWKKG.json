@@ -4,7 +4,7 @@
     "https://GOODHEALTHPASS.COM/vaccination/v1",
     "https://w3id.org/security/bbs/v1"
   ],
-  "id": "https://issuer.oidp.uscis.gov/credentials/SOMQ43OALT",
+  "id": "https://issuer.oidp.uscis.gov/credentials/HQ5F3AWKKG",
   "type": [
     "VerifiableCredential",
     "VaccinationCredential"
@@ -13,22 +13,22 @@
   "issuanceDate": "2021-04-30T09:45:19Z",
   "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
-    "recipient": "SOMQ43OALT",
-    "birthDate": "1960-05-08",
+    "recipient": "HQ5F3AWKKG",
+    "birthDate": "1971-11-11",
     "gender": "F",
-    "givenName": "Kim",
+    "givenName": "Sara",
     "middleName": null,
-    "familyName": "Lewis",
-    "dateOfVaccination": "2021-01-12",
-    "administeringCentre": "Ball's Clinc, North Lisa",
-    "healthProfessional": "ca242491",
+    "familyName": "Grant",
+    "dateOfVaccination": "2021-01-10",
+    "administeringCentre": "House's Drug Store, South Mariahaven",
+    "healthProfessional": "1e6f2c51",
     "countryOfVaccination": "US",
-    "stateOfVaccination": "SC",
-    "batchNumber": "80d0724b",
-    "cycleNumber": "2",
-    "nextVaccinationDate": null,
-    "vaccineEvent": "9da32c66",
-    "linkedVaccineEvent": "037263c2",
+    "stateOfVaccination": "NM",
+    "batchNumber": "d8dab990",
+    "cycleNumber": "1",
+    "nextVaccinationDate": "2021-05-02",
+    "vaccineEvent": "6958dcde",
+    "linkedVaccineEvent": null,
     "medicinalProductName": "AstraZeneca COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
     "cvxCode": "210"
@@ -37,7 +37,7 @@
     "type": "BbsBlsSignature2020",
     "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzde508c6fcbbd6b21",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzaa399cf418d251fb",
     "verificationMethod": "did:example:489398593#test"
   }
 }

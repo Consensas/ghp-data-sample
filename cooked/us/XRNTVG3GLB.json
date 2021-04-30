@@ -4,7 +4,7 @@
     "https://GOODHEALTHPASS.COM/vaccination/v1",
     "https://w3id.org/security/bbs/v1"
   ],
-  "id": "https://issuer.oidp.uscis.gov/credentials/SOMQ43OALT",
+  "id": "https://issuer.oidp.uscis.gov/credentials/XRNTVG3GLB",
   "type": [
     "VerifiableCredential",
     "VaccinationCredential"
@@ -13,31 +13,31 @@
   "issuanceDate": "2021-04-30T09:45:19Z",
   "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
-    "recipient": "SOMQ43OALT",
-    "birthDate": "1960-05-08",
+    "recipient": "XRNTVG3GLB",
+    "birthDate": "1964-01-21",
     "gender": "F",
-    "givenName": "Kim",
+    "givenName": "Amy",
     "middleName": null,
-    "familyName": "Lewis",
-    "dateOfVaccination": "2021-01-12",
-    "administeringCentre": "Ball's Clinc, North Lisa",
-    "healthProfessional": "ca242491",
+    "familyName": "Bailey",
+    "dateOfVaccination": "2021-01-31",
+    "administeringCentre": "Lawson's Drug Store, North Jessicabury",
+    "healthProfessional": "a534372a",
     "countryOfVaccination": "US",
-    "stateOfVaccination": "SC",
-    "batchNumber": "80d0724b",
+    "stateOfVaccination": "IA",
+    "batchNumber": "c820d32d",
     "cycleNumber": "2",
     "nextVaccinationDate": null,
-    "vaccineEvent": "9da32c66",
-    "linkedVaccineEvent": "037263c2",
-    "medicinalProductName": "AstraZeneca COVID-19 Vaccine",
+    "vaccineEvent": "0581f042",
+    "linkedVaccineEvent": "3d9b1a9e",
+    "medicinalProductName": "Janssen COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
-    "cvxCode": "210"
+    "cvxCode": "212"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
     "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTzde508c6fcbbd6b21",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTze8dbf93294425233",
     "verificationMethod": "did:example:489398593#test"
   }
 }

@@ -10,8 +10,8 @@
     "VaccinationCredential"
   ],
   "issuer": "did:example:489398593",
-  "issuanceDate": "2019-12-03T12:19:52Z",
-  "expirationDate": "2029-12-03T12:19:52Z",
+  "issuanceDate": "2021-04-30T09:45:19Z",
+  "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
     "recipient": "LWGREHSDTK",
     "birthDate": "2009-05-23",
@@ -21,23 +21,23 @@
     "familyName": "Bryant",
     "dateOfVaccination": "2021-01-27",
     "administeringCentre": "Drake's Drug Store, Cruzshire",
-    "healthProfessional": "e7e2fe61",
+    "healthProfessional": "568d9aea",
     "countryOfVaccination": "US",
     "stateOfVaccination": "IL",
-    "batchNumber": "55146bba",
-    "cycleNumber": "1",
-    "nextVaccinationDate": "2021-03-24",
-    "vaccineEvent": "c519cff8",
-    "linkedVaccineEvent": null,
-    "medicinalProductName": "Moderna COVID-19 Vaccine",
+    "batchNumber": "eacccee7",
+    "cycleNumber": "2",
+    "nextVaccinationDate": null,
+    "vaccineEvent": "61f2aafd",
+    "linkedVaccineEvent": "085c4759",
+    "medicinalProductName": "Janssen COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
-    "cvxCode": "207"
+    "cvxCode": "212"
   },
   "proof": {
     "type": "BbsBlsSignature2020",
-    "created": "2021-04-29T12:35:04Z",
+    "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz+oZYt4plzA==",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz3207ba25088f91c6",
     "verificationMethod": "did:example:489398593#test"
   }
 }

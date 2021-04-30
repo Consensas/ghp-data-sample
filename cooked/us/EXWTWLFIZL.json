@@ -4,7 +4,7 @@
     "https://GOODHEALTHPASS.COM/vaccination/v1",
     "https://w3id.org/security/bbs/v1"
   ],
-  "id": "https://issuer.oidp.uscis.gov/credentials/LLU3W2HNQV",
+  "id": "https://issuer.oidp.uscis.gov/credentials/EXWTWLFIZL",
   "type": [
     "VerifiableCredential",
     "VaccinationCredential"
@@ -13,21 +13,21 @@
   "issuanceDate": "2021-04-30T09:45:19Z",
   "expirationDate": "2021-05-07T09:45:19Z",
   "credentialSubject": {
-    "recipient": "LLU3W2HNQV",
-    "birthDate": "1991-03-26",
+    "recipient": "EXWTWLFIZL",
+    "birthDate": "1984-04-23",
     "gender": "M",
-    "givenName": "David",
+    "givenName": "James",
     "middleName": null,
-    "familyName": "Rodriguez",
-    "dateOfVaccination": "2021-01-01",
-    "administeringCentre": "Smith's Clinc, Wilkersonland",
-    "healthProfessional": "8a10b340",
+    "familyName": "Frazier",
+    "dateOfVaccination": "2021-04-28",
+    "administeringCentre": "Gonzalez's Hosptial, West Laurie",
+    "healthProfessional": "af26af49",
     "countryOfVaccination": "US",
-    "stateOfVaccination": "WY",
-    "batchNumber": "89f20e5a",
+    "stateOfVaccination": "CA",
+    "batchNumber": "af60cea0",
     "cycleNumber": "1",
-    "nextVaccinationDate": "2021-03-26",
-    "vaccineEvent": "28f2c507",
+    "nextVaccinationDate": "2021-07-21",
+    "vaccineEvent": "9b439cec",
     "linkedVaccineEvent": null,
     "medicinalProductName": "Janssen COVID-19 Vaccine",
     "_marketingAuthorizationHolder": "???",
@@ -37,7 +37,7 @@
     "type": "BbsBlsSignature2020",
     "created": "2021-04-30T09:45:19Z",
     "proofPurpose": "assertionMethod",
-    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz8f3692b3d16782c1",
+    "proofValue": "peTzDkGg4f37LYp2JcujydmgAFyNuWdijjVf7JxwCQZmVCM6FKsMcOWaqax6HGzYMWWorVBEVJ6OfZLzbC7TJgS7Gbxc03BdRGlbdfm+r+VjpSwBV2hAP7xrzDM6R619BDTQatsXPrTz4569b1c378793a3b",
     "verificationMethod": "did:example:489398593#test"
   }
 }
