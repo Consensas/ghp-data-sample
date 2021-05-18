@@ -129,31 +129,33 @@ const make_covid_flat = _.promise((self, done) => {
             const sequence = _.random.integer(2) + 1
             const next = new Date(new Date(_.d.first(sd.record, "treated")).getTime() + vd.weeks * 7 * 24 * 60 * 60 * 1000)
 
+            const _transform = s => _.is.String(s) ? s.toUpperCase() : s
+
             sd.record = {
                 "recipient": _.d.first(sd.record, "code", null),
                 "birthDate": _.d.first(sd.record, "birthDate", null),
-                "gender": _.d.first(sd.record, "gender", null),
-                "givenName": _.d.first(sd.record, "givenName", null),
-                "middleName": _.d.first(sd.record, "additionalName", null),
-                "familyName": _.d.first(sd.record, "familyName", null),
+                "gender": _transform(_.d.first(sd.record, "gender", null)),
+                "givenName": _transform(_.d.first(sd.record, "givenName", null)),
+                "middleName": _transform(_.d.first(sd.record, "additionalName", null)),
+                "familyName": _transform(_.d.first(sd.record, "familyName", null)),
                 "dateOfVaccination": _.d.first(sd.record, "treated", null),
-                "administeringCentre": [
+                "administeringCentre": _transform([
                     _.d.first(sd.record, "hospital.name"),
                     _.d.first(sd.record, "hospital.locality"),
                     // _.d.first(sd.record, "hospital.region"),
                     // _.d.first(sd.record, "hospital.country"),
-                ].filter(s => !_.is.Empty(s)).join(", "),
-                "healthProfessional": _.random.id(8),
-                "countryOfVaccination": _.d.first(sd.record, "hospital.country", null),
-                "stateOfVaccination": _.d.first(sd.record, "hospital.region", null),
-                "batchNumber": _.random.id(8),
-                "cycleNumber": `${sequence}`,
+                ].filter(s => !_.is.Empty(s)).join(", ")),
+                "healthProfessional": _transform(_.random.id(8)),
+                "countryOfVaccination": _transform(_.d.first(sd.record, "hospital.country", null)),
+                "stateOfVaccination": _transform(_.d.first(sd.record, "hospital.region", null)),
+                "batchNumber": _transform(_.random.id(8)),
+                "cycleNumber": _transform(`${sequence}`),
                 "nextVaccinationDate": sequence === 1 ? next.toISOString().substring(0, 10) : null,
-                "vaccineEvent": _.random.id(8),
-                "linkedVaccineEvent": sequence === 2 ? _.random.id(8) : null,
-                "medicinalProductName": vd.name,
-                "marketingAuthorizationHolder": vd.marketingAuthorizationHolder,
-                "disease": vd.disease,
+                "vaccineEvent": _transform(_.random.id(8)),
+                "linkedVaccineEvent": _transform(sequence === 2 ? _.random.id(8) : null),
+                "medicinalProductName": _transform(vd.name),
+                "marketingAuthorizationHolder": _transform(vd.marketingAuthorizationHolder),
+                "disease": _transform(vd.disease),
                 "cvxCode": vd.cvx,
             }
 
@@ -189,6 +191,7 @@ const _one = _.promise((self, done) => {
         .make(sd => {
             sd.json = sd.record
             sd.path = path.join(__dirname, "cooked/us/" + sd.raw.code + ".json")
+            sd.path = path.join(__dirname, "cooked/us-upper/" + sd.raw.code + ".json")
         })
         .then(fs.make.directory.parent)
         .then(fs.write.json.pretty)

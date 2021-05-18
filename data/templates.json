@@ -93,7 +93,10 @@
         "compact": [
           "Janssen COVID-19 Vaccine",
           "AstraZeneca COVID-19 Vaccine",
-          "Moderna COVID-19 Vaccine"
+          "Moderna COVID-19 Vaccine",
+          "ASTRAZENECA COVID-19 VACCINE",
+          "PFIZER COVID-19 VACCINE",
+          "MODERNA COVID-19 VACCINE"
         ]
       },
       {
@@ -102,7 +105,10 @@
         "compact": [
           "Janssen Products, LP",
           "AstraZeneca Pharmaceuticals LP",
-          "Moderna Biotech"
+          "Moderna Biotech",
+          "ASTRAZENECA PHARMACEUTICALS LP",
+          "PFIZER-BIONTECH",
+          "MODERNA BIOTECH"
         ]
       },
       {

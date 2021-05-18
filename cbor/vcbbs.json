@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/pathogen/v1",
+    "https://w3id.org/security/bbs/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-02-04T20:29:37+00:00",
+  "expirationDate": "2021-02-05T20:29:37+00:00",
+  "issuer": "did:example:123",
+  "credentialSubject": {
+    "@context": [
+      "https://w3id.org/pathogen/v1"
+    ],
+    "type": "DGCProofOfCovidTest",
+    "testInformation": {
+      "@context": [
+        "https://w3id.org/pathogen/v1"
+      ],
+      "type": "DGCTestInformation",
+      "testName": "jrc#1065: Becton Dickinson BD Veritor System for Rapid Deteciton os SARS-CoV-2",
+      "testType": "loinc#LP217198-3: Rapid immunoassay",
+      "sampleOriginType": "sct#445447003:Specimen from trachea obtained by aspiration",
+      "sampleCollectionDateTime": "2021-05-03T15:28:56.271Z",
+      "testResult": "1240581000000104-Severe acute respiratory syndrome coronavirus 2 detected",
+      "testCenter": "Hospital Na Františku Prague",
+      "testValidatorId": "test-id",
+      "countryOfTestAdminstration": "it"
+    },
+    "personalInformation": {
+      "@context": [
+        "https://w3id.org/pathogen/v1"
+      ],
+      "type": "DGCSubject",
+      "familyName": "Schmidt",
+      "givenName": "Abdiel",
+      "birthDate": "1987-07-07T11:57:42.017Z",
+      "gender": "female"
+    }
+  },
+  "evidence": [],
+  "proof": {
+    "type": "BbsBlsSignature2020",
+    "created": "2021-05-16T14:46:22Z",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "inDe7e2WQkeib6mVQJujqnvAyrAuLkuNKeDodRAhGm+aViRpJFhpPmnazremP9SvVWTX3rE374S9TEeeNShsI6rpoe6RNwVSUDixVsYvny5LRTnB+EIR1FC5s+TSI7/cFtPWj4QNmahPjLrepmIcSQ==",
+    "verificationMethod": "did:example:123#key-1"
+  }
+}

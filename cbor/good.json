@@ -1,0 +1,92 @@
+[
+  {
+    "@context": [
+      "https://w3id.org/pathogen/v1"
+    ],
+    "type": "DGCProofOfCovidTest",
+    "testInformation": {
+      "@context": [
+        "https://w3id.org/pathogen/v1"
+      ],
+      "type": "DGCTestInformation",
+      "testName": "jrc#1065: Becton Dickinson BD Veritor System for Rapid Deteciton os SARS-CoV-2",
+      "testType": "loinc#LP217198-3: Rapid immunoassay",
+      "sampleOriginType": "sct#445447003:Specimen from trachea obtained by aspiration",
+      "sampleCollectionDateTime": "2021-05-03T15:28:56.271Z",
+      "testResult": "1240581000000104-Severe acute respiratory syndrome coronavirus 2 detected",
+      "testCenter": "Hospital Na Františku Prague",
+      "testValidatorId": "test-id",
+      "countryOfTestAdminstration": "it"
+    },
+    "personalInformation": {
+      "@context": [
+        "https://w3id.org/pathogen/v1"
+      ],
+      "type": "DGCSubject",
+      "familyName": "Schmidt",
+      "givenName": "Abdiel",
+      "birthDate": "1987-07-07T11:57:42.017Z",
+      "gender": "female"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/pathogen/v1"
+    ],
+    "type": "DGCProofOfCovidTest",
+    "testInformation": {
+      "@context": [
+        "https://w3id.org/pathogen/v1"
+      ],
+      "type": "DGCTestInformation",
+      "testName": "jrc#1065: Becton Dickinson BD Veritor System for Rapid Deteciton os SARS-CoV-2",
+      "testType": "loinc#LP6464-4: Nucleic acid amplification with probe detection",
+      "sampleOriginType": "sct#119364003:Serum specimen",
+      "sampleCollectionDateTime": "2021-04-25T19:06:31.886Z",
+      "testResult": "1240591000000102-Severe acute respiratory syndrome coronavirus 2 not detected",
+      "testCenter": "Hospital Na Františku Prague",
+      "testValidatorId": "test-id",
+      "countryOfTestAdminstration": "it"
+    },
+    "personalInformation": {
+      "@context": [
+        "https://w3id.org/pathogen/v1"
+      ],
+      "type": "DGCSubject",
+      "familyName": "Bogisich",
+      "givenName": "Kareem",
+      "birthDate": "2001-09-28T00:03:35.225Z",
+      "gender": "female"
+    }
+  },
+  {
+    "@context": [
+      "https://w3id.org/pathogen/v1"
+    ],
+    "type": "DGCProofOfCovidTest",
+    "testInformation": {
+      "@context": [
+        "https://w3id.org/pathogen/v1"
+      ],
+      "type": "DGCTestInformation",
+      "testName": "jrc#1232: Abbott Rapid Diagnostics Panbio™ COVID-19 Ag Rapid Test",
+      "testType": "loinc#LP217198-3: Rapid immunoassay",
+      "sampleOriginType": "sct#472881004:Pharyngeal swab",
+      "sampleCollectionDateTime": "2021-04-29T21:49:14.589Z",
+      "testResult": "1240591000000102-Severe acute respiratory syndrome coronavirus 2 not detected",
+      "testCenter": "Hospital Na Františku Prague",
+      "testValidatorId": "test-id",
+      "countryOfTestAdminstration": "cz"
+    },
+    "personalInformation": {
+      "@context": [
+        "https://w3id.org/pathogen/v1"
+      ],
+      "type": "DGCSubject",
+      "familyName": "Batz",
+      "givenName": "Alva",
+      "birthDate": "1988-02-07T01:25:04.721Z",
+      "gender": "female"
+    }
+  }
+]
