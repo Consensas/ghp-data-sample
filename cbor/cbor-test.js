@@ -80,7 +80,7 @@ const main = async () => {
         const url = "CBLDZ:" + bytes_32
 
         const url_qr = await _util.qencode_size(url, "cbor-zlib-base32-qr.png")
-        console.log("cbor-zlib-base32-qr", url_qr, _util.show(url_qr, size))
+        console.log("cborld-zlib-base32-qr", url_qr, _util.show(url_qr, size))
 
         console.log()
         console.log(url.match(/.{1,64}/g).join("\n"))
