@@ -51,7 +51,8 @@ Run with
 
 ## JSON > CBOR-LD > BASE32 > QR
 
-<img src="./cborld-zlib-base32-qr.png" />
+<img src="./cborld-base32-qr.png" />
+
 
 Compression Results
 
