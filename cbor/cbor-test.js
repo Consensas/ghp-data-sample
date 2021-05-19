@@ -79,7 +79,7 @@ const main = async () => {
         // const url = "DATA:APPLICATION/JSON;BASE32:" + bytes_32
         const url = "CBLDZ:" + bytes_32
 
-        const url_qr = await _util.qencode_size(url, "cbor-zlib-base32-qr.png")
+        const url_qr = await _util.qencode_size(url, "cborld-zlib-base32-qr.png")
         console.log("cborld-zlib-base32-qr", url_qr, _util.show(url_qr, size))
 
         console.log()
