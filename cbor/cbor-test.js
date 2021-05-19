@@ -56,7 +56,7 @@ const main = async () => {
     });
     console.log("cborld", bytes.length)
 
-    const bytes_32 = base32.encode(bytes)
+    const bytes_32 = base32.encode(bytes).replace(/=*$/, "")
     console.log("cborld-base32", bytes_32.length, _util.show(bytes_32.length, size))
 
     const url = "CBLD:" + bytes_32

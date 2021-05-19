@@ -1,0 +1,90 @@
+{
+  "ghpt:1": {
+    "columns": [
+      {
+        "path": "issuanceDate",
+        "encoder": "isodatetime-epoch-base32"
+      },
+      {
+        "path": "expirationDate",
+        "encoder": "isodatetime-epoch-base32"
+      },
+      {
+        "path": "issuer",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.testInformation.testType",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.testInformation.testResult",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.testInformation.testCenter",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.testInformation.testValidatorId",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.testInformation.countryOfTestAdminstration",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.personalInformation.familyName",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.personalInformation.givenName",
+        "encoder": "string"
+      },
+      {
+        "path": "credentialSubject.personalInformation.birthDate",
+        "encoder": "isodate-1900-base32"
+      },
+      {
+        "path": "credentialSubject.personalInformation.gender",
+        "encoder": "string"
+      },
+      {
+        "path": "proof.created",
+        "encoder": "isodatetime-epoch-base32"
+      },
+      {
+        "path": "proof.proofValue",
+        "encoder": "string"
+      },
+      {
+        "path": "proof.verificationMethod",
+        "encoder": "string"
+      }
+    ],
+    "template": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/pathogen/v1",
+        "https://w3id.org/security/bbs/v1"
+      ],
+      "id": "http://example.org/credentials/",
+      "type": [
+        "VerifiableCredential"
+      ],
+      "credentialSubject": {
+        "type": "DGCProofOfCovidTest",
+        "testInformation": {
+          "type": "DGCTestInformation"
+        },
+        "personalInformation": {
+          "type": "DGCSubject"
+        }
+      },
+      "proof": {
+        "type": "BbsBlsSignature2020",
+        "proofPurpose": "assertionMethod"
+      }
+    }
+  }
+}

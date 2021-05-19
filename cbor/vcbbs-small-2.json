@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/pathogen/v1",
+    "https://w3id.org/security/bbs/v1"
+  ],
+  "id": "http://example.org/credentials/",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuanceDate": "2021-03-04T20:29:37Z",
+  "expirationDate": "2021-03-06T20:29:37Z",
+  "issuer": "did:example:12443",
+  "credentialSubject": {
+    "type": "DGCProofOfCovidTest",
+    "testInformation": {
+      "type": "DGCTestInformation",
+      "testType": "loinc#LP217198-4",
+      "testResult": "NEG",
+      "testCenter": "Hospital of Bad Hope",
+      "testValidatorId": "test-id-2",
+      "countryOfTestAdminstration": "jp"
+    },
+    "personalInformation": {
+      "type": "DGCSubject",
+      "familyName": "Janes",
+      "givenName": "David",
+      "birthDate": "1980-07-07",
+      "gender": "M"
+    }
+  },
+  "proof": {
+    "type": "BbsBlsSignature2020",
+    "created": "2021-05-16T15:46:22Z",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "inDe7e2WQKEIB6MvqjUJQNVaYRaULkuNKeDodRAhGm+aViRpJFhpPmnazremP9SvVWTX3rE374S9TEeeNShsI6rpoe6RNwVSUDixVsYvny5LRTnB+EIR1FC5s+TSI7/cFtPWj4QNmahPjLrepmIcSQ==",
+    "verificationMethod": "did:example:12345#key-1"
+  }
+}
