@@ -41,7 +41,7 @@ exports.show = (v, size) => {
 
 exports.zdeflate = data => {
     return new Promise((resolve, reject) => {
-        zlib.deflate(JSON.stringify(data), (error, buffer) => {
+        zlib.deflate(data, (error, buffer) => {
             if (error) {
                 reject(error)
             } else {

@@ -50,23 +50,42 @@ const main = async () => {
     const size = JSON.stringify(document_vc).length
     console.log("json", size)
 
-    const bytes = await cborld.encode({
+    let bytes = await cborld.encode({
         jsonldDocument: document_vc,
         documentLoader: loader,
     });
     console.log("cborld", bytes.length)
 
-    const bytes_32 = base32.encode(bytes).replace(/=*$/, "")
+    let bytes_32 = base32.encode(bytes).replace(/=*$/, "")
     console.log("cborld-base32", bytes_32.length, _util.show(bytes_32.length, size))
 
-    const url = "CBLD:" + bytes_32
+    let url = "CBLD:" + bytes_32
 
-    const url_qr = await _util.qencode_size(url, "cborld-base32-qr.png")
+    let url_qr = await _util.qencode_size(url, "cborld-base32-qr.png")
     console.log("cborld-base32-qr", url_qr, _util.show(url_qr, size))
 
     console.log()
     console.log(url.match(/.{1,64}/g).join("\n"))
     console.log()
+
+    /**
+     */
+    {
+        bytes = await _util.zdeflate(bytes)
+
+        const bytes_32 = base32.encode(bytes).replace(/=*$/, "")
+        console.log("cbor-zlib-base32", bytes_32.length, _util.show(bytes_32.length, size))
+
+        // const url = "DATA:APPLICATION/JSON;BASE32:" + bytes_32
+        const url = "CBLDZ:" + bytes_32
+
+        const url_qr = await _util.qencode_size(url, "cbor-zlib-base32-qr.png")
+        console.log("cbor-zlib-base32-qr", url_qr, _util.show(url_qr, size))
+
+        console.log()
+        console.log(url.match(/.{1,64}/g).join("\n"))
+        console.log()
+    }
 }
 
 main()
