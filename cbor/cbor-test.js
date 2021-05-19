@@ -59,7 +59,7 @@ const main = async () => {
     const bytes_32 = base32.encode(bytes)
     console.log("cborld-base32", bytes_32.length, _util.show(bytes_32.length, size))
 
-    const url = "cbld:" + bytes_32
+    const url = "CBLD:" + bytes_32
 
     const url_qr = await _util.qencode_size(url, "cborld-base32-qr.png")
     console.log("cborld-base32-qr", url_qr, _util.show(url_qr, size))

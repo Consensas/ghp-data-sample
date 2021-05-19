@@ -1,5 +1,6 @@
 const _ = require("lodash")
 const qrcode = require("qrcode")
+const zlib = require("zlib")
 
 exports.qencode_size = async (data, filename) => {
     try {
@@ -36,3 +37,17 @@ exports.show = (v, size) => {
     const p = Math.round(v * 1000 / size) / 10
     return `${v} ${p}%`
 }
+
+
+exports.zdeflate = data => {
+    return new Promise((resolve, reject) => {
+        zlib.deflate(JSON.stringify(data), (error, buffer) => {
+            if (error) {
+                reject(error)
+            } else {
+                resolve(buffer)
+            }
+        })
+    })
+}
+
