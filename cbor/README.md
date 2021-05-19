@@ -79,7 +79,7 @@ XG5BNNFSBRUQ2MAO2VMIY2YNGAHCZGEMNU33ENFSDUZLYMFWXA3DFHIYTEMY
 
 ## JSON > CBOR-LD > ZLIB > BASE32 > QR
 
-<img src="./cborld-lib-base32-qr.png" />
+<img src="./cborld-zlib-base32-qr.png" />
 
 ```
 cbor-zlib-base32 695 695 69.8%
