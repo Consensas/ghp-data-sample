@@ -74,7 +74,7 @@ const main = async () => {
         bytes = await _util.zdeflate(bytes)
 
         const bytes_32 = base32.encode(bytes).replace(/=*$/, "")
-        console.log("cbor-zlib-base32", bytes_32.length, _util.show(bytes_32.length, size))
+        console.log("cborld-zlib-base32-qr", bytes_32.length, _util.show(bytes_32.length, size))
 
         // const url = "DATA:APPLICATION/JSON;BASE32:" + bytes_32
         const url = "CBLDZ:" + bytes_32
